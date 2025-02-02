@@ -83,5 +83,66 @@ Babel=>some older browser does not understand ES6.babel transpile ES6 code to a 
 //class Based component -OLD
 //functional component-NEW
 
-React Functional Component->it is just a normal JS function which return some JSX code
+ # React Functional Component->it is just a normal JS function which return some JSX code
+
+
+# LECTURE 5
+
+
+ # TWO TYPES OF EXPORTS/IMPORTS
+ # -Default Export/Import
+
+export default component
+import Component from "path"
+
+# Named Export/Import
+
+export const Component
+import {component} from "path"
+
+react is fast in DOM manipulation and this is the exact problem react is solving.suppose you have to keep your data and UI layer tied with each other then there comes REACT.
+
+
+  # State Variable->Super Powerful Variable->For that we use React Hooks i.e useState()
+
+  # React Hooks(Normal JS utility function)
+  //react hook is a normal JS function given by react.that function has a special power
+  useState()-superpowerful state variables in React
+  useEffect()
+
+   # Normal JS variables
+  // let ListOfRestaurants = []
+
+ # SuperPowerful Variable
+  const [ListOfRestaurants,setListOfRestaurant] = useState([])
+
+  so basicaly super powerful variable keeps the Ui in sync with the data layer .if listofRestaurant is a normal variable  and if will update it, UI will not get update .
+  as soon as listofrestaurant changes it will automatically refresh our component .this is called render
+
+  # IMPORTANT
+  # whenever the state variable updates,React rerenders the component
+
+React will keep your UI sync with data layer.in data layer when you have local state variables.. as soon as data layer updates your UI layer will update. How will it update ? it will update by rendering.
+
+
+#Reconciliation Algorithm(React Fiber)is a new algorithm which comes in REACT16 .React fibre is a new way of finding div and updating the DOM
+
+Virtual DOM-is representation of a actual DOM
+it is a normal JS nested object
+
+
+Diff Algorithm -it finds out differnece between updated virtual DOM nand previous virtual DOM
+
+suppose on clicking restro cards which are 7(old) and on click they become 3(new) it just find out the difference between virtual DOM and then it actually updates the DOM
+  Differnece between 2 HTML code in Tough but between 2 object it is fast  as JS is fast.
+  React keeps a track of all this UI ,ALL DOM NODES as virtual DOM
+  # React is fast?why?
+
+because react is doing efficient DOM manipulation How? because it has virtual DOM.react can efficiently find out the difference between 2 virtual DOM and can update the UI.
+
+
+
+
+
+
 
