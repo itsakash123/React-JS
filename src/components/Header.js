@@ -1,13 +1,13 @@
 import { LOGO_URL } from "../utils/constants";
-//props is jS object
-  const Header = () => {
+
+const Header = () => {
   return (
     <div className="header">
       <div className="logo-container">
         <img
           className="logo"
           src={LOGO_URL}
-          alt=""
+          alt="Restaurant Logo"
         />
       </div>
       <div className="nav-items">
@@ -21,5 +21,6 @@ import { LOGO_URL } from "../utils/constants";
     </div>
   );
 };
-export default Header
+
+export default Header;
 

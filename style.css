@@ -1,50 +1,176 @@
-.header{
+/* Color System */
+:root {
+    --primary: #FF6B35;        /* Vibrant Orange */
+    --primary-dark: #E55A2A;   /* Darker Orange */
+    --primary-light: #FFB3A0;  /* Light Orange */
+    --neutral-50: #F8F9FA;     /* Off-white */
+    --neutral-900: #1A1A1A;    /* Near black */
+    --text-primary: #1A1A1A;
+    --text-secondary: #666666;
+    --border-color: #E5E5E5;
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.12);
+    --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.15);
+    --radius: 8px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #FFFFFF;
+    color: var(--text-primary);
+}
+
+/* Header Styles */
+.header {
     display: flex;
     justify-content: space-between;
-    align-items:center;
-    border: 1px solid black;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
-.logo{
-    width:200px;
-}
-.nav-items>ul{
+
+.logo-container {
     display: flex;
-    font-size: 22px;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+.nav-items > ul {
+    display: flex;
     list-style-type: none;
+    gap: 32px;
+    align-items: center;
 }
-.nav-items>ul>li{
-    padding:10px;
-    margin:10px;
-}
-.res-Card{
-    width: 300px;;
-    height:400px;
-    margin:5px; 
-    padding:3px;
-    overflow: hidden;
 
-}
-.res-Card :hover{
-    
+.nav-items > ul > li {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--text-primary);
     cursor: pointer;
-    border: 1px solid black;
+    transition: color 0.3s ease;
 }
 
-.filter-btn{
-    margin: 10px;
-    padding: 10px;
+.nav-items > ul > li:hover {
+    color: var(--primary);
 }
-.res-logo{
-    position: relative;
-    width:100%;
-    height: 200px;
-    left:0;
-    top:0;
-    
+
+/* Body Styles */
+.body {
+    padding: 40px 32px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
-.res-container{
-    position: relative;
+
+/* Filter Section */
+.filter {
+    margin-bottom: 48px;
     display: flex;
-    flex-wrap: wrap;
-    
+    gap: 12px;
+    align-items: center;
+}
+
+.filter-btn {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-sm);
+}
+
+.filter-btn:hover {
+    background-color: var(--primary-dark);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.filter-btn:active {
+    transform: translateY(0);
+}
+
+/* Restaurant Container */
+.res-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 24px;
+    animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Restaurant Card */
+.res-Card {
+    background-color: #FFFFFF;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.res-Card:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-8px);
+    border-color: var(--primary-light);
+}
+
+.res-logo {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.res-Card > h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-primary);
+    padding: 16px 16px 8px;
+    line-height: 1.4;
+}
+
+.res-Card > h4 {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--text-secondary);
+    padding: 0 16px 4px;
+    line-height: 1.4;
+}
+
+.res-Card > h4:last-of-type {
+    padding-bottom: 16px;
+    color: var(--primary);
+    font-weight: 600;
 }
