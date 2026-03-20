@@ -1,38 +1,41 @@
 {
-  "name": "igniting-our-app",
+  "name": "react-js",
   "version": "1.0.0",
-  "description": "this is react ",
-   
-  "scripts": {
-    
-    "start":"parcel index.html",
-    "build":"parcel build index.html",
-    "test": "jest"
+  "description": "This is Food Delivery App",
+  "homepage": "https://github.com/itsakash123/React-JS#readme",
+  "bugs": {
+    "url": "https://github.com/itsakash123/React-JS/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/itsakash123/React-JS.git"
   },
-  "keywords": [
-    "react"
-  ],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itsakash123/React-JS/issues"
+  "author": "Akash Kumar",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
   },
-  "homepage": "https://github.com/itsakash123/React-JS#readme",
   "devDependencies": {
-    "parcel": "^2.13.3",
-    "process": "^0.11.10"
+    "@parcel/transformer-image": "^2.16.4",
+    "@tailwindcss/postcss": "^4.2.2",
+    "autoprefixer": "^10.4.27",
+    "parcel": "^2.16.4",
+    "postcss": "^8.5.8",
+    "process": "^0.11.10",
+    "tailwindcss": "^4.2.2",
+    "url": "^0.11.4"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.9",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
-  "BrowsersList ":[
-    "Last 2 version"
-    
-
+  "browserslist": [
+    "last 2 versions"
   ]
 }
