@@ -83,7 +83,18 @@ Babel=>some older browser does not understand ES6.babel transpile ES6 code to a 
 //className Based component -OLD
 //functional component-NEW
 
+props ->are just normal arguments to a function.when we want to dynamically pass some data to a componentn you pass a props
 # React Functional Component->it is just a normal JS function which return some JSX code
+
+
+# LECTURE 4
+ when we have components at same level and we have to loop over them them we have to use ID's
+ so it render only one component rather than rendering all components
+
+ suppose if there is a new restaurant that came in and it came at the first place so what will happen is React DOM will have to insert a new res comp at first place .suppose if we have no keys it has to render all the components ,it will treats all components as same
+
+
+ Dont use index as a key 
 
 # LECTURE 5
 
