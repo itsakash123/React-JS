@@ -1,5 +1,735 @@
 const resList = [
   {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "882841",
+      name: "Unique Baker's",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/5/10/25913ea3-9b08-4598-9dbd-52854fb7dec5_882841.jpg",
+      locality: "Khalasi Line",
+      areaName: "Swaroop Nagar",
+      costForTwo: "₹600 for two",
+      cuisines: ["Bakery"],
+      avgRating: null,
+      parentId: "14102",
+      avgRatingString: "--",
+      totalRatingsString: "",
+      sla: {
+        deliveryTime: 44,
+        lastMileTravel: 3,
+        serviceability: "SERVICEABLE",
+        slaString: "40-45 mins",
+        lastMileTravelString: "3.0 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-23 23:00:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {},
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "",
+    },
+    cta: {
+      link: "",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "913948",
+      name: "Theobroma",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2026/3/5/8a80036c-4145-431a-a040-810b32159f96_913948.JPG",
+      locality: "Swaroop Nagar",
+      areaName: "Swaroop Nagar",
+      costForTwo: "₹300 for two",
+      cuisines: ["Bakery", "Desserts", "Beverages"],
+      avgRating: 4.6,
+      parentId: "1040",
+      avgRatingString: "4.6",
+      totalRatingsString: "1.1K+",
+      sla: {
+        deliveryTime: 35,
+        lastMileTravel: 4.6,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "4.6 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-24 00:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "newg.png",
+            description: "Gourmet",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Gourmet",
+                  imageId: "newg.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.3",
+          ratingCount: "143",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-4f5f0b21-b2c9-45da-bd40-9d2890168e73",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/theobroma-swaroop-nagar-rest913948",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "810395",
+      name: "Mr. Brown",
+      cloudinaryImageId: "195be0bdbf32c795b8c3d76b9f3c141c",
+      locality: "Civil Lines",
+      areaName: "Civil Lines",
+      costForTwo: "₹300 for two",
+      cuisines: ["Beverages", "Fast Food", "Pizzas", "Kebabs", "Burgers"],
+      avgRating: 4.6,
+      parentId: "2262",
+      avgRatingString: "4.6",
+      totalRatingsString: "1.6K+",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 2.5,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "2.5 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-23 22:30:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Desserts.png",
+            description: "Delivery!",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Desserts.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹49",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.2",
+          ratingCount: "6.9K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-4f5f0b21-b2c9-45da-bd40-9d2890168e73",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/mr-brown-civil-lines-rest810395",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "792015",
+      name: "The Hazelnut Factory",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2026/3/10/d0034698-884f-4382-aebc-8ec2b061c7fc_792015.JPG",
+      locality: "Mall Road",
+      areaName: "Naveen Market",
+      costForTwo: "₹400 for two",
+      cuisines: [
+        "Bakery",
+        "Cakes & Pastries",
+        "Beverages",
+        "Sweets",
+        "Desserts",
+        "Pizzas",
+        "Pastas",
+        "Burgers",
+        "Coffee",
+      ],
+      avgRating: 4.7,
+      parentId: "209462",
+      avgRatingString: "4.7",
+      totalRatingsString: "2.1K+",
+      sla: {
+        deliveryTime: 34,
+        lastMileTravel: 2.1,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "2.1 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-23 23:30:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Desserts.png",
+            description: "Delivery!",
+          },
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Desserts.png",
+                },
+              },
+              {
+                attributes: {
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹100 OFF",
+        subHeader: "ABOVE ₹549",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.3",
+          ratingCount: "1.0K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-4f5f0b21-b2c9-45da-bd40-9d2890168e73",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/the-hazelnut-factory-mall-road-naveen-market-rest792015",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "674923",
+      name: "Bikanervala",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2024/12/20/6727c131-dfba-4e7d-9a1f-93507fd0d496_674923.jpg",
+      locality: "Kidwai Nagar",
+      areaName: "Chawla Market",
+      costForTwo: "₹400 for two",
+      cuisines: [
+        "Sweets",
+        "North Indian",
+        "South Indian",
+        "Continental",
+        "Beverages",
+      ],
+      avgRating: 4.3,
+      veg: true,
+      parentId: "45936",
+      avgRatingString: "4.3",
+      totalRatingsString: "3.6K+",
+      sla: {
+        deliveryTime: 29,
+        lastMileTravel: 4.3,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "4.3 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-24 05:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Snacks.png",
+            description: "Delivery!",
+          },
+        ],
+      },
+      isOpen: true,
+      aggregatedDiscountInfoV2: {},
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Snacks.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "3.9",
+          ratingCount: "3.0K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-4f5f0b21-b2c9-45da-bd40-9d2890168e73",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/bikanervala-kidwai-nagar-chawla-market-rest674923",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "136124",
+      name: "Cafe Coffee Day",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/8/21/6ab58f49-81a2-4137-806e-e7095992706a_136124.JPG",
+      locality: "Civil Lines",
+      areaName: "Mall Road",
+      costForTwo: "₹400 for two",
+      cuisines: [
+        "Beverages",
+        "Cafe",
+        "Snacks",
+        "Desserts",
+        "Burgers",
+        "Ice Cream",
+        "Bakery",
+        "Fast Food",
+      ],
+      avgRating: 4.2,
+      parentId: "1",
+      avgRatingString: "4.2",
+      totalRatingsString: "1.5K+",
+      sla: {
+        deliveryTime: 34,
+        lastMileTravel: 3.9,
+        serviceability: "SERVICEABLE",
+        slaString: "30-35 mins",
+        lastMileTravelString: "3.9 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-23 23:55:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "40% OFF",
+        subHeader: "UPTO ₹80",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.0",
+          ratingCount: "1.0K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-4f5f0b21-b2c9-45da-bd40-9d2890168e73",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/cafe-coffee-day-civil-lines-mall-road-rest136124",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "816861",
+      name: "Bakingo",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2026/3/18/7be84eeb-035e-4889-b89d-429ca23fd0cb_816861.JPG",
+      locality: "Juhi Kalan",
+      areaName: "Kanpur Tehsil",
+      costForTwo: "₹299 for two",
+      cuisines: ["Bakery", "Desserts", "Beverages", "Snacks"],
+      avgRating: 4.7,
+      parentId: "3818",
+      avgRatingString: "4.7",
+      totalRatingsString: "4.7K+",
+      sla: {
+        deliveryTime: 26,
+        lastMileTravel: 6.7,
+        serviceability: "SERVICEABLE",
+        slaString: "25-30 mins",
+        lastMileTravelString: "6.7 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-24 01:00:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "Rxawards/_CATEGORY-Desserts.png",
+            description: "Delivery!",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "Delivery!",
+                  imageId: "Rxawards/_CATEGORY-Desserts.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "₹125 OFF",
+        subHeader: "ABOVE ₹249",
+        discountTag: "FLAT DEAL",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.6",
+          ratingCount: "176",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-4f5f0b21-b2c9-45da-bd40-9d2890168e73",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/bakingo-juhi-kalan-kanpur-tehsil-rest816861",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
+    "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+    info: {
+      id: "361085",
+      name: "Sweet Truth - Cake and Desserts",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2026/2/24/f1cb339e-0147-4995-bced-cb81e7ad68e3_361085.JPG",
+      locality: "Permat",
+      areaName: "Harsh Nagar",
+      costForTwo: "₹450 for two",
+      cuisines: ["Desserts", "Ice Cream", "Bakery", "Beverages"],
+      avgRating: 4.5,
+      parentId: "4444",
+      avgRatingString: "4.5",
+      totalRatingsString: "1.9K+",
+      sla: {
+        deliveryTime: 38,
+        lastMileTravel: 3.7,
+        serviceability: "SERVICEABLE",
+        slaString: "35-40 mins",
+        lastMileTravelString: "3.7 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-23 23:59:00",
+        opened: true,
+      },
+      badges: {},
+      isOpen: true,
+      type: "F",
+      badgesV2: {
+        entityBadges: {
+          imageBased: {},
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹79",
+      },
+      orderabilityCommunication: {
+        title: {},
+        subTitle: {},
+        message: {},
+        customIcon: {},
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          mediaType: "ADS_MEDIA_ENUM_IMAGE",
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "--",
+        },
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-4f5f0b21-b2c9-45da-bd40-9d2890168e73",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/sweet-truth-cake-and-desserts-permat-harsh-nagar-rest361085",
+      text: "RESTAURANT_MENU",
+      type: "WEBLINK",
+    },
+    widgetId: "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo",
+  },
+  {
     info: {
       id: "75044",
       name: "KFC",
@@ -419,90 +1149,6 @@ const resList = [
     },
     cta: {
       link: "https://www.swiggy.com/city/kanpur/dum-safar-biryani-mg-marg-z-square-mall-rest639464",
-      type: "WEBLINK",
-    },
-  },
-  {
-    info: {
-      id: "816861",
-      name: "Bakingo",
-      cloudinaryImageId:
-        "RX_THUMBNAIL/IMAGES/VENDOR/2026/3/18/7be84eeb-035e-4889-b89d-429ca23fd0cb_816861.JPG",
-      locality: "Juhi Kalan",
-      areaName: "Kanpur Tehsil",
-      costForTwo: "₹299 for two",
-      cuisines: ["Bakery", "Desserts", "Beverages", "Snacks"],
-      avgRating: 4.7,
-      parentId: "3818",
-      avgRatingString: "4.7",
-      totalRatingsString: "4.7K+",
-      sla: {
-        deliveryTime: 28,
-        lastMileTravel: 6.7,
-        serviceability: "SERVICEABLE",
-        slaString: "25-30 mins",
-        lastMileTravelString: "6.7 km",
-        iconType: "ICON_TYPE_EMPTY",
-      },
-      availability: {
-        nextCloseTime: "2026-03-23 01:00:00",
-        opened: true,
-      },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Desserts.png",
-            description: "Delivery!",
-          },
-        ],
-      },
-      isOpen: true,
-      type: "F",
-      badgesV2: {
-        entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Rxawards/_CATEGORY-Desserts.png",
-                },
-              },
-            ],
-          },
-          textBased: {},
-          textExtendedBadges: {},
-        },
-      },
-      aggregatedDiscountInfoV3: {
-        header: "60% OFF",
-        subHeader: "UPTO ₹110",
-      },
-      differentiatedUi: {
-        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
-        differentiatedUiMediaDetails: {
-          lottie: {},
-          video: {},
-        },
-      },
-      reviewsSummary: {},
-      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
-      restaurantOfferPresentationInfo: {},
-      externalRatings: {
-        aggregatedRating: {
-          rating: "4.6",
-          ratingCount: "176",
-        },
-        source: "GOOGLE",
-        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
-      },
-      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
-    },
-    analytics: {
-      context: "seo-data-bd980cd0-9915-4a5f-b161-ccfe0c4dbe57",
-    },
-    cta: {
-      link: "https://www.swiggy.com/city/kanpur/bakingo-juhi-kalan-kanpur-tehsil-rest816861",
       type: "WEBLINK",
     },
   },
@@ -1396,59 +2042,52 @@ const resList = [
   },
   {
     info: {
-      id: "216065",
-      name: "Mithas",
-      cloudinaryImageId: "145a416f8986401def8fa948191a3097",
-      locality: "Swaroop Nagar",
-      areaName: "Swaroop Nagar",
-      costForTwo: "₹250 for two",
-      cuisines: ["Sweets", "Snacks", "Chaat", "South Indian", "Beverages"],
-      avgRating: 4.7,
-      veg: true,
-      parentId: "7558",
-      avgRatingString: "4.7",
-      totalRatingsString: "8.1K+",
+      id: "1056238",
+      name: "Burger Singh(Big Punjabi Burgers)",
+      cloudinaryImageId:
+        "RX_THUMBNAIL/IMAGES/VENDOR/2025/3/6/c69db34e-02f3-429a-81b9-2e3c5781c8c3_1056238.jpg",
+      locality: "15/60 CIVILLINES, NAGAR NIGAM",
+      areaName: "Civil Lines Kanpur",
+      costForTwo: "₹300 for two",
+      cuisines: [
+        "Burgers",
+        "Snacks",
+        "Desserts",
+        "Beverages",
+        "Fast Food",
+        "American",
+        "Indian",
+        "Biryani",
+      ],
+      avgRating: 4.3,
+      parentId: "375065",
+      avgRatingString: "4.3",
+      totalRatingsString: "543",
       sla: {
-        deliveryTime: 37,
-        lastMileTravel: 4.3,
+        deliveryTime: 41,
+        lastMileTravel: 2.1,
         serviceability: "SERVICEABLE",
-        slaString: "35-40 mins",
-        lastMileTravelString: "4.3 km",
+        slaString: "40-50 mins",
+        lastMileTravelString: "2.1 km",
         iconType: "ICON_TYPE_EMPTY",
       },
       availability: {
-        nextCloseTime: "2026-03-22 22:15:00",
+        nextCloseTime: "2026-03-24 04:00:00",
         opened: true,
       },
-      badges: {
-        imageBadges: [
-          {
-            imageId: "Rxawards/_CATEGORY-Mithai.png",
-            description: "Delivery!",
-          },
-        ],
-      },
+      badges: {},
       isOpen: true,
       type: "F",
       badgesV2: {
         entityBadges: {
-          imageBased: {
-            badgeObject: [
-              {
-                attributes: {
-                  description: "Delivery!",
-                  imageId: "Rxawards/_CATEGORY-Mithai.png",
-                },
-              },
-            ],
-          },
+          imageBased: {},
           textBased: {},
           textExtendedBadges: {},
         },
       },
       aggregatedDiscountInfoV3: {
-        header: "ITEMS",
-        subHeader: "AT ₹45",
+        header: "50% OFF",
+        discountTag: "FLAT DEAL",
       },
       differentiatedUi: {
         displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
@@ -1462,19 +2101,100 @@ const resList = [
       restaurantOfferPresentationInfo: {},
       externalRatings: {
         aggregatedRating: {
-          rating: "4.2",
-          ratingCount: "3.9K+",
+          rating: "--",
         },
-        source: "GOOGLE",
-        sourceIconImageId: "v1704440323/google_ratings/rating_google_tag",
       },
       ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
     },
     analytics: {
-      context: "seo-data-bd980cd0-9915-4a5f-b161-ccfe0c4dbe57",
+      context: "seo-data-5d76d8ad-7566-4b53-9b2b-d1c2b4f67344",
     },
     cta: {
-      link: "https://www.swiggy.com/city/kanpur/mithas-swaroop-nagar-rest216065",
+      link: "",
+      type: "WEBLINK",
+    },
+  },
+  {
+    info: {
+      id: "134618",
+      name: "Rashmishree Vaishnav",
+      cloudinaryImageId: "oyutmi5dtiobarm5fo9s",
+      locality: "Chawla Market",
+      areaName: "Ghantaghar",
+      costForTwo: "₹150 for two",
+      cuisines: ["Thalis", "Sweets"],
+      avgRating: 4.4,
+      parentId: "635387",
+      avgRatingString: "4.4",
+      totalRatingsString: "7.1K+",
+      sla: {
+        deliveryTime: 40,
+        lastMileTravel: 0.4,
+        serviceability: "SERVICEABLE",
+        slaString: "35-45 mins",
+        lastMileTravelString: "0.4 km",
+        iconType: "ICON_TYPE_EMPTY",
+      },
+      availability: {
+        nextCloseTime: "2026-03-23 23:59:00",
+        opened: true,
+      },
+      badges: {
+        imageBadges: [
+          {
+            imageId: "v1695133679/badges/Pure_Veg111.png",
+            description: "pureveg",
+          },
+        ],
+      },
+      isOpen: true,
+      type: "F",
+      veg: true,
+      badgesV2: {
+        entityBadges: {
+          imageBased: {
+            badgeObject: [
+              {
+                attributes: {
+                  description: "pureveg",
+                  imageId: "v1695133679/badges/Pure_Veg111.png",
+                },
+              },
+            ],
+          },
+          textBased: {},
+          textExtendedBadges: {},
+        },
+      },
+      aggregatedDiscountInfoV3: {
+        header: "ITEMS",
+        subHeader: "AT ₹49",
+      },
+      differentiatedUi: {
+        displayType: "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+        differentiatedUiMediaDetails: {
+          lottie: {},
+          video: {},
+        },
+      },
+      reviewsSummary: {},
+      displayType: "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+      restaurantOfferPresentationInfo: {},
+      externalRatings: {
+        aggregatedRating: {
+          rating: "4.0",
+          ratingCount: "1.3K+",
+        },
+        source: "GOOGLE",
+        sourceIconImageId: "",
+      },
+      ratingsDisplayPreference: "RATINGS_DISPLAY_PREFERENCE_SHOW_SWIGGY",
+    },
+    analytics: {
+      context: "seo-data-79d9659b-01ce-4afe-8532-6997e038d387",
+    },
+    cta: {
+      link: "https://www.swiggy.com/city/kanpur/rashmishree-vaishnav-chawla-market-ghantaghar-rest134618",
       type: "WEBLINK",
     },
   },
